@@ -1,0 +1,26 @@
+{
+  "name": "app-defines",
+  "version": "1.0.0",
+  "description": "Define immutable app-wide constants",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvdstaaij/node-app-defines.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Tim van der Staaij",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tvdstaaij/node-app-defines/issues"
+  },
+  "homepage": "https://github.com/tvdstaaij/node-app-defines#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "engines": {
+    "node" : ">=4.4.5"
+  }
+}
