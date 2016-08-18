@@ -42,7 +42,7 @@ describe('defines', () => {
   });
 
   it('should tolerate a second freeze', () => {
-    defines.freeze();
+    expect(defines.freeze()).to.equal(defines);
     expect(() => defines.aNumber++)
       .to.throw(TypeError);
     expect(defines.aNumber).to.equal(testPayload.aNumber);

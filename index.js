@@ -17,7 +17,7 @@ function freezeDeep(o) {
 const defines = {};
 
 defines.freeze = () => {
-  defines.freeze = () => {};
+  defines.freeze = () => defines;
   freezeDeep(defines);
   return defines;
 };
