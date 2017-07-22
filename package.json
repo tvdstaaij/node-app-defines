@@ -1,6 +1,6 @@
 {
   "name": "app-defines",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Define immutable app-wide constants",
   "main": "index.js",
   "repository": {
