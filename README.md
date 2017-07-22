@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/app-defines.svg)](https://www.npmjs.com/package/app-defines)
 [![npm license](https://img.shields.io/npm/l/app-defines.svg)](https://www.npmjs.com/package/app-defines)
+[![travis build](https://travis-ci.org/tvdstaaij/node-app-defines.svg?branch=master)](https://travis-ci.org/tvdstaaij/node-app-defines)
 
 ```javascript
 const defines = require('app-defines');
